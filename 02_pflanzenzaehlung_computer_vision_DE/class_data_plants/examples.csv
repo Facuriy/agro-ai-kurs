@@ -1,0 +1,5 @@
+example_id,image_file,ground_truth_file,sensor,difficulty,composite,suggested_threshold,min_area_px,max_area_px,reference_count,reason_de
+beispiel_1_rgb,beispiel_1_rgb.png,beispiel_1_rgb_ground_truth.csv,RGB,einfach,rgb,0.5,18,900,36,Klares RGB-Beispiel mit gut sichtbaren jungen Pflanzen.
+beispiel_2_altum_multispektral,beispiel_2_altum_multispektral.png,beispiel_2_altum_multispektral_ground_truth.csv,Altum multispektral,mittel,altum_rgb,0.35,10,700,76,Multispektrales Beispiel mit Blue/Green/Red/RedEdge/NIR/Thermal.
+beispiel_3_rededge_multispektral,beispiel_3_rededge_multispektral.png,beispiel_3_rededge_multispektral_ground_truth.csv,RedEdge multispektral,mittel,re_rgb,0.5,10,900,71,RedEdge-Beispiel mit fünf Spektralbändern und dichterer Struktur.
+beispiel_4_m3multi_multispektral,beispiel_4_m3multi_multispektral.png,beispiel_4_m3multi_multispektral_ground_truth.csv,M3multi multispektral,schwierig,m3_false_color,0.4,8,1200,28,"Schwierigeres Beispiel: multispektral, hohe Auflösung, keine klassische Blue-Band."
