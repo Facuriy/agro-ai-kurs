@@ -1,64 +1,65 @@
 # Agro-AI Kurs
 
-Willkommen! Dieses Repository enthält drei kleine, praktische Übungen für den Unterricht.
+Willkommen! Dieses Repository enthält drei praktische Übungen zu Landwirtschaft, Bilddaten und künstlicher Intelligenz.
 
-Die Notebooks laufen direkt im Browser. Die kleinen Datensätze werden beim Start automatisch geladen.
+Alle Übungen sind klein vorbereitet. Die Daten werden im Notebook automatisch geladen. Man kann direkt im Browser arbeiten.
 
 ## Schnellstart
 
-1. Einen Link unten öffnen.
-2. In Colab oder Binder warten, bis das Notebook geladen ist.
-3. Oben im Menü auf `Runtime > Run all` klicken.
+1. Eine Übung auswählen.
+2. Auf **Colab öffnen** oder **Binder öffnen** klicken.
+3. Warten, bis das Notebook geladen ist.
+4. Im Menü **Runtime > Run all** wählen.
 
-## Welche Option soll ich nehmen?
+## Colab oder Binder?
 
-| Option | Wann benutzen? |
+| Option | Gut für |
 |---|---|
-| **Colab** | Empfohlen, wenn ein Google-Konto vorhanden ist. Startet meistens schneller. |
-| **Binder** | Alternative ohne Google-Konto. Der Start kann einige Minuten dauern. |
+| **Colab** | Schnell arbeiten mit Google-Konto |
+| **Binder** | Arbeiten ohne Google-Konto |
+
+Binder kann beim ersten Start einige Minuten brauchen.
 
 ## Übungen
 
 ### 1. Fernerkundung, Drohne und Vegetationsindizes
 
-Themen: RGB, Falschfarbe, NIR, RedEdge, NDVI, NDRE, Auflösung, einfache Alarmkarte.
+Themen: RGB, NIR, RedEdge, NDVI, NDRE, Auflösung und einfache Stresskarte.
 
-[In Colab öffnen](https://colab.research.google.com/github/Facuriy/agro-ai-kurs/blob/main/01_fernerkundung_drohne_indices_DE/Fernerkundung_Drohne_Vegetationsindizes_DOZENT_DE.ipynb)
+[Colab öffnen](https://colab.research.google.com/github/Facuriy/agro-ai-kurs/blob/main/01_fernerkundung_drohne_indices_DE/Fernerkundung_Drohne_Vegetationsindizes_KURS_DE.ipynb)
 
-[In Binder öffnen](https://mybinder.org/v2/gh/Facuriy/agro-ai-kurs/main?labpath=01_fernerkundung_drohne_indices_DE/Fernerkundung_Drohne_Vegetationsindizes_DOZENT_DE.ipynb)
+[Binder öffnen](https://mybinder.org/v2/gh/Facuriy/agro-ai-kurs/main?labpath=01_fernerkundung_drohne_indices_DE/Fernerkundung_Drohne_Vegetationsindizes_KURS_DE.ipynb)
 
 ### 2. Pflanzenzählung mit Computer Vision
 
-Themen: Excess Green, Schwellenwert, Morphologie, Connected Components, Ground Truth, Precision, Recall, F1.
+Themen: Excess Green, Schwellenwert, Morphologie, Connected Components, Ground Truth, Precision, Recall und F1.
 
-[In Colab öffnen](https://colab.research.google.com/github/Facuriy/agro-ai-kurs/blob/main/02_pflanzenzaehlung_computer_vision_DE/Pflanzenzaehlung_Programmierung_DOZENT_DE.ipynb)
+[Colab öffnen](https://colab.research.google.com/github/Facuriy/agro-ai-kurs/blob/main/02_pflanzenzaehlung_computer_vision_DE/Pflanzenzaehlung_Programmierung_KURS_DE.ipynb)
 
-[In Binder öffnen](https://mybinder.org/v2/gh/Facuriy/agro-ai-kurs/main?labpath=02_pflanzenzaehlung_computer_vision_DE/Pflanzenzaehlung_Programmierung_DOZENT_DE.ipynb)
+[Binder öffnen](https://mybinder.org/v2/gh/Facuriy/agro-ai-kurs/main?labpath=02_pflanzenzaehlung_computer_vision_DE/Pflanzenzaehlung_Programmierung_KURS_DE.ipynb)
 
 ### 3. Pflanzenkrankheit mit Baseline und Mini-CNN
 
-Themen: Bildklassifikation, Trainingsdaten, Baseline, Random Forest, kleine CNN, Confusion Matrix, Overfitting.
+Themen: Bildklassifikation, Trainingsdaten, Baseline, Random Forest, Mini-CNN, Confusion Matrix und Overfitting.
 
-[In Colab öffnen](https://colab.research.google.com/github/Facuriy/agro-ai-kurs/blob/main/03_pflanzenkrankheit_baseline_cnn_DE/Pflanzenkrankheit_Mini_CNN_DOZENT_DE.ipynb)
+[Colab öffnen](https://colab.research.google.com/github/Facuriy/agro-ai-kurs/blob/main/03_pflanzenkrankheit_baseline_cnn_DE/Pflanzenkrankheit_Mini_CNN_KURS_DE.ipynb)
 
-[In Binder öffnen](https://mybinder.org/v2/gh/Facuriy/agro-ai-kurs/main?labpath=03_pflanzenkrankheit_baseline_cnn_DE/Pflanzenkrankheit_Mini_CNN_DOZENT_DE.ipynb)
+[Binder öffnen](https://mybinder.org/v2/gh/Facuriy/agro-ai-kurs/main?labpath=03_pflanzenkrankheit_baseline_cnn_DE/Pflanzenkrankheit_Mini_CNN_KURS_DE.ipynb)
 
 ## Ordner
 
 ```text
-00_leerer_ordner/
+00_start/
 klassen/
 01_fernerkundung_drohne_indices_DE/
 02_pflanzenzaehlung_computer_vision_DE/
 03_pflanzenkrankheit_baseline_cnn_DE/
 ```
 
-- `00_leerer_ordner/`: leerer Platzhalterordner.
-- `klassen/`: kurze Übersicht der drei Übungen.
-- Die drei nummerierten Ordner enthalten die Notebooks und kleinen Datensätze.
+- `00_start/`: freier Ordner für eigene Notizen und Tests.
+- `klassen/`: kurze Übersicht mit allen Links.
+- Die drei nummerierten Ordner enthalten die Notebooks und Daten.
 
-## Hinweis
+## Tipp
 
-Binder braucht kein Google-Konto, ist aber manchmal langsam. Für die dritte Übung mit der Mini-CNN ist Colab meistens angenehmer.
-
-Wenn etwas nicht startet: Seite neu laden und noch einmal `Run all` ausführen.
+Für die dritte Übung ist Colab meistens schneller. Binder funktioniert ohne Google-Konto, braucht aber mehr Geduld beim Start.
